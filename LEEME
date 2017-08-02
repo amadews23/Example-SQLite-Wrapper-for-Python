@@ -5,5 +5,5 @@ swig -python consulta.i
 gcc -c consulta.c consulta_wrap.c -lsqlite3 -I /usr/include/python2.7 -fPIC
 ld -shared consulta.o consulta_wrap.o -lsqlite3 -o _consulta.so
 
-quit()
+
 
