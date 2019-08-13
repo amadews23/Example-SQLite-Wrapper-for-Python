@@ -12,6 +12,5 @@ THESE ARE THE STEPS TO COMPILE AND CREATE WRAPPER:
 
 EXAMPLE TO USE (in the python console):
 
-```import consulta
-
-consulta.Insertar(2, "Cadillac", 10000)```
+```import consulta```
+```consulta.Insertar(2, "Cadillac", 10000)```
